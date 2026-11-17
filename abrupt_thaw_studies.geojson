@@ -1,0 +1,875 @@
+{
+ "type": "FeatureCollection",
+ "name": "abrupt_thaw_studies",
+ "description": "RTS and ALD studies with years covered, area, features counted and citation. Geometry holds only coordinates given in the papers (stated, example sites, or midpoint of stated bounds, see coordinate_basis); features without paper-given coordinates have null geometry.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 1,
+    "study": "This study (Qikiqtaruk 2023)",
+    "type": "ALD",
+    "covers": "ALD (RTS follow-up)",
+    "region": "Qikiqtaruk–Herschel Island, Yukon",
+    "years_covered": "July–Sept 2023 event; surveys to 2026",
+    "study_area_km2": 116,
+    "features_counted": "~753 ALDs (0.84–0.87% of island); >15% initiated RTS",
+    "citation": "This study",
+    "doi": null,
+    "scale": "Island-wide inventory",
+    "notes": "Area and count from author's Table 1. Coordinates to be added.",
+    "verified_from": "Your manuscript",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 2,
+    "study": "Lewkowicz & Way 2019",
+    "type": "RTS",
+    "covers": "RTS (ALD not counted)",
+    "region": "Banks Island, NWT",
+    "years_covered": "1984–2016 imagery; initiation to 2014",
+    "study_area_km2": 70000,
+    "features_counted": "Active RTS 63 (1984) to 4,077 (2013); >4,500 initiated",
+    "citation": "Lewkowicz, A. G. & Way, R. G. (2019). Extremes of summer climate trigger thousands of thermokarst landslides in a High Arctic environment. Nature Communications 10, 1329.",
+    "doi": "10.1038/s41467-019-09314-7",
+    "scale": "Island-wide inventory",
+    "notes": "Points are example sites named in the paper, not a study centre. Climate stations are also named (Sachs Harbour 71.99N 125.24W; Thomsen River 73.23N 119.54W; Nangmagvik Lake 74.14N 119.94W).",
+    "verified_from": "Full text (PMC)",
+    "coordinate_basis": "example sites stated in paper"
+   },
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      -124.127,
+      71.717
+     ],
+     [
+      -120.19,
+      72.18
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 3,
+    "study": "Segal et al. 2016",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Banks Island (Jesse Moraine), Tuktoyaktuk Coastlands, Bluenose Moraine, Peel Plateau",
+    "years_covered": "1950–2008 (paired historical and modern imagery)",
+    "study_area_km2": 6514,
+    "features_counted": "Counts not stated; ~530 active slumps analysed (inferred)",
+    "citation": "Segal, R. A., Lantz, T. C. & Kokelj, S. V. (2016). Acceleration of thaw slump activity in glaciated landscapes of the Western Canadian Arctic. Environmental Research Letters 11, 034025.",
+    "doi": "10.1088/1748-9326/11/3/034025",
+    "scale": "Regional, 4 areas",
+    "notes": "Area = 603 + 1,371 + 3,262 + 1,278 km². No coordinates in text.",
+    "verified_from": "Full text",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 4,
+    "study": "Kokelj et al. 2017",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "NW Canada (glaciated continuous permafrost)",
+    "years_covered": "Not stated",
+    "study_area_km2": 1270000,
+    "features_counted": "Not stated",
+    "citation": "Kokelj, S. V., Lantz, T. C., Tunnicliffe, J., Segal, R. & Lacelle, D. (2017). Climate-driven thaw of permafrost preserved glacial landscapes, northwestern Canada. Geology 45(4), 371–374.",
+    "doi": "10.1130/G38626.1",
+    "scale": "Regional framework",
+    "notes": "Area is 1.27 million km² of continuous permafrost terrain.",
+    "verified_from": "Abstract page",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 5,
+    "study": "Kokelj et al. 2021",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Peel Plateau, Banks Island, Tuktoyaktuk–Inuvik, Willow River; NW Canada",
+    "years_covered": "1986–2018 (Landsat); lidar 2011; DTMs 2011–2018",
+    "study_area_km2": 994860,
+    "features_counted": "71 slumps (lidar sample); Willow River slump counts as % only",
+    "citation": "Kokelj, S. V., Kokoszka, J., van der Sluijs, J., Rudy, A. C. A., Tunnicliffe, J., Shakil, S., Tank, S. E. & Zolkos, S. (2021). Thaw-driven mass wasting couples slopes with downstream systems, and effects propagate through Arctic drainage networks. The Cryosphere 15, 3059–3081.",
+    "doi": "10.5194/tc-15-3059-2021",
+    "scale": "Regional, multi-scale",
+    "notes": "Sub-areas: Peel Plateau 3,520; SE Banks 1,220; Willow River 806 (text also gives 103). No coordinates.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 6,
+    "study": "Allometric scaling of RTS (TC 2023)",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Anderson Plain–Tuktoyaktuk Coastlands; Peel Plateau",
+    "years_covered": "2004–c.2016 imagery; 2011 lidar",
+    "study_area_km2": 5948,
+    "features_counted": "1,242 digitised c.2016 (785 + 457), of which 585 active",
+    "citation": "The Cryosphere 17, 4511 (2023). Authors not retrieved.",
+    "doi": "10.5194/tc-17-4511-2023",
+    "scale": "Regional, 2 areas",
+    "notes": "Area = 3,278 + 2,670 km². Points are example slumps from figure captions, not the study centre. Check author list before citing.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": "example sites in figure captions"
+   },
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      -133.743,
+      68.529
+     ],
+     [
+      -133.599,
+      68.608
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 7,
+    "study": "Ramage et al. 2017",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Yukon Coast incl. Herschel Island",
+    "years_covered": "1972–2011 (2011 satellite mapping)",
+    "study_area_km2": null,
+    "features_counted": "287 RTS in 2011",
+    "citation": "Ramage, J. L., Irrgang, A. M., Herzschuh, U., Morgenstern, A., Couture, N. & Lantuit, H. (2017). Terrain controls on the occurrence of coastal retrogressive thaw slumps along the Yukon Coast, Canada. Journal of Geophysical Research: Earth Surface.",
+    "doi": null,
+    "scale": "Coastal segment",
+    "notes": "Study length is a 238 km coastline segment, not an area. DOI not retrieved.",
+    "verified_from": "Repository record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 8,
+    "study": "Ramage et al. 2018",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Yukon Coast incl. Herschel Island",
+    "years_covered": "1952–2011 (aerial photos 1952, 1972; satellite 2011; lidar 2013)",
+    "study_area_km2": null,
+    "features_counted": "287 RTS in 2011; total up 73% from 1952 to 2011",
+    "citation": "Ramage, J. L., Irrgang, A. M., Morgenstern, A. & Lantuit, H. (2018). Increasing coastal slump activity impacts the release of sediment and organic carbon into the Arctic Ocean. Biogeosciences 15, 1483–1495.",
+    "doi": "10.5194/bg-15-1483-2018",
+    "scale": "Coastal segment",
+    "notes": "238 km coastline (190 km lidar). No area or coordinates in text. ALDs not mentioned.",
+    "verified_from": "Journal page",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 9,
+    "study": "De Krom (Herschel Island thesis)",
+    "type": "Both",
+    "covers": "Both",
+    "region": "Herschel Island, Yukon",
+    "years_covered": "1988–1989",
+    "study_area_km2": null,
+    "features_counted": "Not stated in abstract",
+    "citation": "De Krom, V. A geomorphic investigation of retrogressive thaw slumps and active layer slides on Herschel Island, Yukon Territory. Thesis (McGill University per catalogue record; year to confirm).",
+    "doi": null,
+    "scale": "Site surveys",
+    "notes": "From author's notes. Reports ALDs did not expose ground ice or start RTS.",
+    "verified_from": "Your notes only",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 10,
+    "study": "Lipovsky et al. 2006",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Dawson City area, Yukon (Steele, Mickey, Fifty Mile creeks)",
+    "years_covered": "2004–2005",
+    "study_area_km2": null,
+    "features_counted": "Almost 150 ALDs within a year of the 2004 fires",
+    "citation": "Lipovsky, P. S., Coates, J., Lewkowicz, A. G. & Trochim, E. (2006). Active-layer detachments following the summer 2004 forest fires near Dawson City, Yukon. In: Yukon Exploration and Geology 2005, Yukon Geological Survey, 175–194.",
+    "doi": null,
+    "scale": "3 watersheds",
+    "notes": "Point is the midpoint of the map frame (63.67–64.33°N, 140.67–139.33°W). No areas given. Notes list 70 + 40 + 28 = 138.",
+    "verified_from": "Full report",
+    "coordinate_basis": "derived midpoint of map-frame bounds in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -140.0,
+     64.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 11,
+    "study": "Clarke et al. 2024",
+    "type": "Both",
+    "covers": "Both (ALD + retrogressive thaw flows)",
+    "region": "Dempster Highway km 240–250, Yukon",
+    "years_covered": "2017–2023 (fire 2017; ALDs 2017–2020)",
+    "study_area_km2": null,
+    "features_counted": "42 ALDs (41 by end 2018 + 1 in 2020); 6 RTFs",
+    "citation": "Clarke, H. C., Cronmiller, D. C., Ward, B. C. & Groeneveld, K. A. (2024). Permafrost-related landslides following a 2017 wildfire, Dempster Highway, Yukon (parts of NTS 116G/9 and 116H/12). In: Yukon Exploration and Geology Technical Papers 2023, Yukon Geological Survey, 17–36.",
+    "doi": null,
+    "scale": "Highway corridor",
+    "notes": "No area or lat/lon given (NTS sheets 116G/9, 116H/12).",
+    "verified_from": "Full report",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 12,
+    "study": "Lewkowicz & Harris 2005",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Central Mackenzie Valley (65°N) and Fosheim Peninsula, Ellesmere (80°N)",
+    "years_covered": "Not stated",
+    "study_area_km2": null,
+    "features_counted": "Not stated",
+    "citation": "Lewkowicz, A. G. & Harris, C. (2005). Frequency and magnitude of active-layer detachment failures in discontinuous and continuous permafrost, northern Canada. Permafrost and Periglacial Processes 16, 115–130.",
+    "doi": "10.1002/ppp.522",
+    "scale": "2 regions",
+    "notes": "Abstract gives latitudes only (65°N, 80°N), so no point. Counts, areas and years are in the full text.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 13,
+    "study": "Lewkowicz 2007",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Fosheim Peninsula, Ellesmere Island",
+    "years_covered": "2005 (late summer)",
+    "study_area_km2": null,
+    "features_counted": "\"Dozens\" of ALDs",
+    "citation": "Lewkowicz, A. G. (2007). Dynamics of active-layer detachment failures, Fosheim Peninsula, Ellesmere Island, Nunavut, Canada. Permafrost and Periglacial Processes 18(1), 89–103.",
+    "doi": "10.1002/ppp.578",
+    "scale": "Site observations",
+    "notes": "No area in abstract.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 14,
+    "study": "Harris & Lewkowicz 2000",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Fosheim Peninsula, Ellesmere Island (Hot Weather Creek, Big Slide Creek)",
+    "years_covered": "1995 field season",
+    "study_area_km2": null,
+    "features_counted": "Not stated (2 slopes analysed)",
+    "citation": "Harris, C. & Lewkowicz, A. G. (2000). An analysis of the stability of thawing slopes, Ellesmere Island, Nunavut, Canada. Canadian Geotechnical Journal 37(2), 449–462.",
+    "doi": "10.1139/t99-118",
+    "scale": "Slope stability, 2 sites",
+    "notes": "Process study, not an inventory.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 15,
+    "study": "Ward Jones et al. 2019",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Eureka Sound Lowlands, Ellesmere and Axel Heiberg Islands",
+    "years_covered": "1989–2018 (rapid initiation 2011–2018)",
+    "study_area_km2": null,
+    "features_counted": "Active slumps from ≤100 to >200 per year; 12 slumps with dGPS",
+    "citation": "Ward Jones et al. (2019). Rapid initialization of retrogressive thaw slumps in the Canadian high Arctic and their response to climate and terrain factors. Environmental Research Letters 14, 055006.",
+    "doi": "10.1088/1748-9326/ab12fd",
+    "scale": "Regional",
+    "notes": "Author list not retrieved. No area or coordinates in abstract.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 16,
+    "study": "Lamoureux & Lafrenière 2009",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Cape Bounty, Melville Island, Nunavut",
+    "years_covered": "Not retrieved",
+    "study_area_km2": null,
+    "features_counted": "Not retrieved",
+    "citation": "Lamoureux, S. F. & Lafrenière, M. J. (2009). Fluvial impact of extensive active layer detachments, Cape Bounty, Melville Island, Canada. Arctic, Antarctic, and Alpine Research 41(1), 59–68.",
+    "doi": "10.1657/1938-4246(08-030)[lamoureux]2.0.co;2",
+    "scale": "Catchment study",
+    "notes": "No coordinates from the paper itself (a catalogue record gives roughly 74.86N, 109.54W, not used). Abstract not retrieved.",
+    "verified_from": "Catalogue record only",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 17,
+    "study": "Jones et al. 2015",
+    "type": "Both",
+    "covers": "Both (not counted)",
+    "region": "Anaktuvuk River fire, Alaska North Slope",
+    "years_covered": "2001–2014 (fire 2007)",
+    "study_area_km2": 1000,
+    "features_counted": "Not counted; ALDs and RTS \"local\" and largely stabilised within 5 years",
+    "citation": "Jones, B. M., Grosse, G., Arp, C. D., Miller, E., Liu, L., Hayes, D. J. & Larsen, C. F. (2015). Recent Arctic tundra fire initiates widespread thermokarst development. Scientific Reports 5, 15865.",
+    "doi": "10.1038/srep15865",
+    "scale": "Fire scar",
+    "notes": "Area is the approximate fire scar. No coordinates in text.",
+    "verified_from": "Full text (PMC)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 18,
+    "study": "Swanson 2021",
+    "type": "Both",
+    "covers": "Both",
+    "region": "Noatak and Gates of the Arctic, Alaska (4 areas)",
+    "years_covered": "c.1977–2019 (episodes 1977–85, 2006–09, 2018–19)",
+    "study_area_km2": 3827,
+    "features_counted": "ALD 526 / 395 / 68 and RTS 69 / 179 / 87 by episode (Table 3)",
+    "citation": "Swanson, D. K. (2021). Permafrost thaw-related slope failures in Alaska's Arctic National Parks, c. 1980–2019. Permafrost and Periglacial Processes 32, 392–406.",
+    "doi": "10.1002/ppp.2098",
+    "scale": "Regional, 4 areas",
+    "notes": "Area = 664 + 1,722 + 363 + 1,078 (text gives 1,922 for area 2). Episode 2 ALD is 395 in Table 3 but 392 in text. Points are example locations from figures (study areas 2, 2, 3, 4).",
+    "verified_from": "Full text",
+    "coordinate_basis": "example sites stated in paper"
+   },
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      -163.88,
+      67.54
+     ],
+     [
+      -156.82,
+      67.962
+     ],
+     [
+      -157.904,
+      68.251
+     ],
+     [
+      -151.896,
+      67.748
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 19,
+    "study": "Swanson & Nolan 2018",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Noatak Valley, Alaska",
+    "years_covered": "2010–2016",
+    "study_area_km2": null,
+    "features_counted": "22 RTS monitored",
+    "citation": "Swanson, D. K. & Nolan, M. (2018). Growth of retrogressive thaw slumps in the Noatak Valley, Alaska, 2010–2016, measured by airborne photogrammetry. Remote Sensing 10(7), 983.",
+    "doi": "10.3390/rs10070983",
+    "scale": "Monitoring sites",
+    "notes": "No study area stated (2,900 km² is the glacial drift extent). Slump coordinates are in Supplement S1, not retrieved.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 20,
+    "study": "Webb et al. 2026 (Alaska Permafrost Thaw Database)",
+    "type": "Both",
+    "covers": "Both (+ other thaw types)",
+    "region": "Alaska (statewide)",
+    "years_covered": "1950–present",
+    "study_area_km2": null,
+    "features_counted": "19,540 locations: ALD 5,463; RTS 1,450; thermokarst lakes 10,625",
+    "citation": "Webb, H., Pierce, E., Abbott, B. W. et al. (2026). A comprehensive database of thawing permafrost locations across Alaska: version 2.0.0. Earth System Science Data 18, 3147–3164.",
+    "doi": "10.5194/essd-18-3147-2026",
+    "scale": "Compiled database (44 sources)",
+    "notes": "Point is the geographic centre of Alaska as used in the paper. Area not reported.",
+    "verified_from": "Full text",
+    "coordinate_basis": "geographic centre of Alaska, stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -152.47,
+     64.73
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 21,
+    "study": "Elia et al. 2023",
+    "type": "Both",
+    "covers": "Both",
+    "region": "Far North Arctic Alaska",
+    "years_covered": "Not stated (inventory from Swanson, c.1980–2019)",
+    "study_area_km2": 50000,
+    "features_counted": "RTS 1,295; ALD 5,508",
+    "citation": "Elia, L., Castellaro, S., Dahal, A. & Lombardo, L. (2023). Assessing multi-hazard susceptibility to cryospheric hazards: Lesson learnt from an Alaskan example. Science of the Total Environment 898, 165289.",
+    "doi": "10.1016/j.scitotenv.2023.165289",
+    "scale": "Susceptibility model",
+    "notes": "Counts are far larger than Swanson 2021 Table 3: a different compilation of the same source. No coordinates in text.",
+    "verified_from": "Full text (PDF)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 22,
+    "study": "Makopoulou et al. 2025",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Alaska, Yukon, part of NWT (validation: central Siberia)",
+    "years_covered": "Mostly 1990–2020 (climate normal 1981–2010)",
+    "study_area_km2": 2136185,
+    "features_counted": "4,286 ALDs in study area (4,398 compiled); Siberian validation 142 in text, 112 in table",
+    "citation": "Makopoulou, E., Karjalainen, O., Lipovsky, P., Blais-Stevens, A. & Hjort, J. (2025). Susceptibility of active-layer detachment failures and vulnerability of infrastructure in Alaska and northwestern Canada. Landslides 22, 3561–3575.",
+    "doi": "10.1007/s10346-025-02603-x",
+    "scale": "Compiled inventory",
+    "notes": "Validation area 87,166 km². No bounding coordinates given.",
+    "verified_from": "Full text (PDF)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 23,
+    "study": "Makopoulou et al. 2024",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Northern Hemisphere permafrost region",
+    "years_covered": "Mostly 1980–2020 (some 1950s)",
+    "study_area_km2": null,
+    "features_counted": "19,227 RTS observations",
+    "citation": "Makopoulou, E., Karjalainen, O., Elia, L., Blais-Stevens, A., Lantz, T., Lipovsky, P., Lombardo, L., Nicu, I. C., Rubensdotter, L., Rudy, A. C. A. & Hjort, J. (2024). Retrogressive thaw slump susceptibility in the northern hemisphere permafrost region. Earth Surface Processes and Landforms 49(11), 3319–3331.",
+    "doi": "10.1002/esp.5890",
+    "scale": "Compiled inventory",
+    "notes": "Area and coordinates not reported.",
+    "verified_from": "Full text (PDF)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 24,
+    "study": "Nitze et al. 2018",
+    "type": "RTS",
+    "covers": "RTS (also lakes, burn scars)",
+    "region": "4 transects: West Siberia, East Siberia, Alaska, eastern Canada",
+    "years_covered": "1999–2014 (burn scars 2000–2015)",
+    "study_area_km2": 2300000,
+    "features_counted": "408 RTS (West Siberia 23; East Siberia 140; Alaska 245; E. Canada 0), 5.29 km²",
+    "citation": "Nitze, I., Grosse, G., Jones, B. M., Romanovsky, V. E. & Boike, J. (2018). Remote sensing quantifies widespread abundance of permafrost region disturbances across the Arctic and Subarctic. Nature Communications 9, 5423.",
+    "doi": "10.1038/s41467-018-07663-3",
+    "scale": "Pan-Arctic sampling",
+    "notes": "Area is the stated total (>2.3 million km², ~10% of permafrost region). Features >0.1 ha. No coordinates.",
+    "verified_from": "Full text (PMC)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 25,
+    "study": "Runge et al. 2022",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "North Siberia (Taymyr to Chukotka)",
+    "years_covered": "2000–2019",
+    "study_area_km2": 8100000,
+    "features_counted": "50,895 RTS (512 used for training)",
+    "citation": "Runge, A., Nitze, I. & Grosse, G. (2022). Remote sensing annual dynamics of rapid permafrost thaw disturbances with LandTrendr. Remote Sensing of Environment 268, 112752.",
+    "doi": "10.1016/j.rse.2021.112752",
+    "scale": "Regional (Landsat/Sentinel-2)",
+    "notes": "Extent roughly 55–77°N, 80°E to 170°W. Point is Batagay, a site discussed in the paper, not the study centre.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": "site stated in paper (Batagay)"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.0,
+     67.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 26,
+    "study": "Bernhard et al. 2022",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Northern Taymyr Peninsula, Russia",
+    "years_covered": "2010/11–2020/21 (TanDEM-X); Sentinel-2 2016–2020",
+    "study_area_km2": 68000,
+    "features_counted": "82 active RTS (TP1) to 1,404 (TP2)",
+    "citation": "Bernhard, P., Zwieback, S. & Hajnsek, I. (2022). Accelerated mobilization of organic carbon from retrogressive thaw slumps on the northern Taymyr Peninsula. The Cryosphere 16, 2819–2835.",
+    "doi": "10.5194/tc-16-2819-2022",
+    "scale": "Regional",
+    "notes": "TP1 ~68,000 km²; TP2 ~27,000 km². Point is the midpoint of the stated bounds (75–77.5°N, 88–106°E).",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": "derived midpoint of bounds stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.0,
+     76.25
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 27,
+    "study": "Nesterova et al. 2025",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Yamal, Gydan and Tazovsky peninsulas, West Siberia",
+    "years_covered": "Imagery 2016–2023",
+    "study_area_km2": 445226,
+    "features_counted": "6,168 RTS (none on Tazovsky)",
+    "citation": "Nesterova, N., Tarasevich, I., Leibman, M., Khomutov, A., Kizyakov, A., Nitze, I. & Grosse, G. (2025). High-resolution inventory and classification of retrogressive thaw slumps in West Siberia. Earth System Science Data 17, 5707–5727.",
+    "doi": "10.5194/essd-17-5707-2025",
+    "scale": "Regional inventory",
+    "notes": "No coordinates in text (UTM zone 43N).",
+    "verified_from": "Full text",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 28,
+    "study": "Nesterova et al. 2026",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Yamal and Gydan peninsulas, West Siberia",
+    "years_covered": "1964–2024 (CORONA/HEXAGON to PlanetScope)",
+    "study_area_km2": 306900,
+    "features_counted": "6,168 RTS regional inventory; key-site RTS numbers up ~23-fold",
+    "citation": "Nesterova, N., Leibman, M., Stadie, C., Hölzer, T., Nitze, I., Tarasevich, I., Maier, K., Vasileva, M., Lantuit, H., Küpper, J. et al. (2026). Rapid increase in West Siberia's retrogressive thaw slumps since 1964 associated with Arctic winter warming. Scientific Reports 16, 18164.",
+    "doi": "10.1038/s41598-026-56146-9",
+    "scale": "Regional + 5 key sites",
+    "notes": "Area is DERIVED (21,179 km² of RTS clusters = 6.9% of study area). Key sites total ~6,103 km². No coordinates.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 29,
+    "study": "Northern Hemisphere RTS volumetric study (Nature Comms 2025)",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Northern Hemisphere above 60°N (ArcticDEM domain)",
+    "years_covered": "2012–2022",
+    "study_area_km2": null,
+    "features_counted": "2,747 active RTS ≥10,000 m²; total area 78.6 km²",
+    "citation": "Volumetric quantifications and dynamics of areas undergoing retrogressive thaw slumping in the Northern Hemisphere. Nature Communications (2025). Authors not retrieved.",
+    "doi": "10.1038/s41467-025-62017-0",
+    "scale": "Pan-Arctic",
+    "notes": "Domain area not stated. Points are example RTS in the paper (Taymyr; two in Eureka Sound Lowlands). Add authors before citing.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": "example sites stated in paper"
+   },
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      98.665,
+      75.622
+     ],
+     [
+      -86.84,
+      79.49
+     ],
+     [
+      -86.23,
+      79.61
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 30,
+    "study": "Yang et al. 2025",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Pan-Arctic (20 combined datasets)",
+    "years_covered": "Not stated",
+    "study_area_km2": null,
+    "features_counted": "23,529 RTS-present and 20,434 RTS-absent digitisations",
+    "citation": "Yang, Y., Rodenhizer, H., Rogers, B. M., Dean, J., Singh, R., Windholz, T., Poston, A., Potter, S., Zolkos, S., Fiske, G., Watts, J., Huang, L., Witharana, C., Nitze, I., Nesterova, N., Barth, S., Grosse, G., Lantz, T., Runge, A. et al. (2025). A collaborative and scalable geospatial data set for Arctic retrogressive thaw slumps with data standards. Scientific Data 12.",
+    "doi": "10.1038/s41597-025-04372-7",
+    "scale": "Compiled dataset",
+    "notes": "Regions, years and extent not on the retrieved page.",
+    "verified_from": "Repository record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 31,
+    "study": "Nicu et al. 2021",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Nordenskiöld Land, Svalbard",
+    "years_covered": "Orthophotos 2009–2011",
+    "study_area_km2": 4000,
+    "features_counted": "400 RTS scars",
+    "citation": "Nicu, I. C., Lombardo, L. & Rubensdotter, L. (2021). Preliminary assessment of thaw slump hazard to Arctic cultural heritage in Nordenskiöld Land, Svalbard. Landslides 18, 2935–2947.",
+    "doi": "10.1007/s10346-021-01684-8",
+    "scale": "Regional inventory",
+    "notes": "Coordinates (78°N, 15°E) and area (~4,000 km²) as stated in the paper. No ALDs inventoried.",
+    "verified_from": "Full text",
+    "coordinate_basis": "stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0,
+     78.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 32,
+    "study": "Nicu et al. 2023",
+    "type": "RTS",
+    "covers": "RTS (thaw slumps; multi-hazard paper)",
+    "region": "Nordenskiöld Land, Svalbard",
+    "years_covered": "Orthophotos 2009–2011",
+    "study_area_km2": 4000,
+    "features_counted": "562 thaw slumps",
+    "citation": "Nicu, I. C., Elia, L., Rubensdotter, L., Tanyaş, H. & Lombardo, L. (2023). Multi-hazard susceptibility mapping of cryospheric hazards in a high-Arctic environment: Svalbard Archipelago. Earth System Science Data 15, 447–464.",
+    "doi": "10.5194/essd-15-447-2023",
+    "scale": "Regional inventory",
+    "notes": "Same area as Nicu et al. 2021 but a larger count (562 vs 400). No coordinates in the retrieved text.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 33,
+    "study": "Xia et al. 2022",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Qinghai–Tibet Engineering Corridor",
+    "years_covered": "2016–2020 (PlanetScope Jul–Aug)",
+    "study_area_km2": 54000,
+    "features_counted": "875 RTS (474 Beiluhe in abstract; 459 in Discussion)",
+    "citation": "Xia, Z., Huang, L., Fan, C., Jia, S., Lin, Z., Liu, L., Luo, J., Niu, F. & Zhang, T. (2022). Retrogressive thaw slumps along the Qinghai–Tibet Engineering Corridor: a comprehensive inventory and their distribution characteristics. Earth System Science Data 14, 3875–3887.",
+    "doi": "10.5194/essd-14-3875-2022",
+    "scale": "Regional inventory",
+    "notes": "Point is the midpoint of the stated bounds (90.91–95.15°E, 31.74–35.99°N).",
+    "verified_from": "Full text",
+    "coordinate_basis": "derived midpoint of bounds stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.03,
+     33.865
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 34,
+    "study": "Xia et al. 2024",
+    "type": "RTS",
+    "covers": "RTS",
+    "region": "Qinghai–Tibet Plateau",
+    "years_covered": "2016–2022",
+    "study_area_km2": null,
+    "features_counted": "RTS locations 1,592 (2016) to 3,805 (2022); area 1,714 to 6,507 ha",
+    "citation": "Xia, Z., Liu, L., Mu, C., Peng, X., Zhao, Z., Huang, L., Luo, J. & Fan, C. (2024). Widespread and rapid activities of retrogressive thaw slumps on the Qinghai-Tibet Plateau from 2016 to 2022. Geophysical Research Letters.",
+    "doi": "10.1029/2024GL109616",
+    "scale": "Plateau-wide",
+    "notes": "Study area and coordinates not given in the retrieved text.",
+    "verified_from": "Repository record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 35,
+    "study": "Peng et al. 2024",
+    "type": "Both",
+    "covers": "Both (hillslope thermokarst: RTS, ALD, gullies; not split)",
+    "region": "Qilian Mountains, NE Qinghai–Tibet Plateau",
+    "years_covered": "Imagery 1999–2022; field 2022–2023",
+    "study_area_km2": null,
+    "features_counted": "1,064 features (187 before 2010; 392 in 2010–2015; 482 after 2015)",
+    "citation": "Peng, X., Yang, G., Frauenfeld, O. W., Li, X., Tian, W., Chen, G., Huang, Y., Wei, G., Luo, J., Mu, C. & Niu, F. (2024). The first hillslope thermokarst inventory for the permafrost region of the Qilian Mountains. Earth System Science Data 16, 2033–2045.",
+    "doi": "10.5194/essd-16-2033-2024",
+    "scale": "Regional inventory",
+    "notes": "Point is the midpoint of the stated bounds (36–40°N, 94–104°E). Permafrost area is 94,235 km² but the domain area is not stated.",
+    "verified_from": "Full text (PDF)",
+    "coordinate_basis": "derived midpoint of bounds stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.0,
+     38.0
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 36,
+    "study": "Wei et al. 2024",
+    "type": "Both",
+    "covers": "Both (not split)",
+    "region": "Qinghai–Tibet Engineering Corridor",
+    "years_covered": "Planet imagery 2016–2022",
+    "study_area_km2": 80000,
+    "features_counted": "1,298 landslides (paper's own sub-counts do not add up)",
+    "citation": "Wei, T., Wang, J., Xie, M. & Feng, P. (2024). Formation mechanism of climate warming-induced landslides in permafrost along the Qinghai-Tibet Engineering corridor. Frontiers in Earth Science 12, 1503980.",
+    "doi": "10.3389/feart.2024.1503980",
+    "scale": "Regional inventory",
+    "notes": "Point is monitoring station MXDT (35.72°N, 94.13°E) given in the paper; its table labels may be swapped. Corridor ~550 km long. No boundary coordinates.",
+    "verified_from": "Full text (first 100k characters)",
+    "coordinate_basis": "monitoring station stated in paper"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.13,
+     35.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 37,
+    "study": "Jiang et al. 2022",
+    "type": "ALD",
+    "covers": "ALD",
+    "region": "Fenghuoshan Mountains, Qinghai–Tibet Plateau",
+    "years_covered": "2018 (slide on 21 Sept)",
+    "study_area_km2": null,
+    "features_counted": "1 slide (145 m × 45 m)",
+    "citation": "Jiang, G., Gao, S., Lewkowicz, A. G., Zhao, H., Pang, S. & Wu, Q. (2022). Development of a rapid active layer detachment slide in the Fenghuoshan Mountains, Qinghai–Tibet Plateau. Permafrost and Periglacial Processes.",
+    "doi": "10.1002/ppp.2151",
+    "scale": "Single slide",
+    "notes": "Elevation 4,850 m a.s.l.; coordinates not given.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 38,
+    "study": "Leibman 1995",
+    "type": "ALD",
+    "covers": "ALD (shearing slides), ground-ice slumps, earth flows",
+    "region": "Yamal Peninsula, Russia",
+    "years_covered": "Not stated",
+    "study_area_km2": null,
+    "features_counted": "Not stated; shearing slides dominant in size and number",
+    "citation": "Leibman, M. O. (1995). Cryogenic landslides on the Yamal Peninsula, Russia: Preliminary observations. Permafrost and Periglacial Processes 6(3), 259–264.",
+    "doi": "10.1002/ppp.3430060307",
+    "scale": "Site observations",
+    "notes": "Abstract only.",
+    "verified_from": "Abstract record",
+    "coordinate_basis": null
+   },
+   "geometry": null
+  }
+ ]
+}
